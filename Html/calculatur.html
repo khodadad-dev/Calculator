@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="icon" type="" href="/img/Icon.png" />
+    <link rel="stylesheet" href="/css/calculatur.css"/>
+  </head>
+  <body>
+    <section class="layout">
+      <div class="box">
+        <div  id="Display" >0</div>
+        <div class="Dokmeh">
+          <button onclick="showNumber(1)"      class="b-1">1</button>
+          <button onclick="showNumber(2)"      class="b-2">2</button>
+          <button onclick="showNumber(3)"      class="b-3">3</button>
+          <button onclick="setOperator('/')"   class="bDivision">/</button>
+          <button onclick="showNumber(4)"      class="b-4">4</button>
+          <button onclick="showNumber(5)"      class="b-5">5</button>
+          <button onclick="showNumber(6)"      class="b-6">6</button>
+          <button onclick="setOperator('-')"   class="bSubtraction">-</button>
+          <button onclick="showNumber(7)"      class="b-7">7</button>
+          <button onclick="showNumber(8)"      class="b-8">8</button>
+          <button onclick="showNumber(9)"      class="b-9">9</button>
+          <button onclick="setOperator('x')"   class="bMultiplication">x</button>
+          <button onclick="AddDot()"           class="bDot">,</button>
+          <button onclick="showNumber(0)"      class="b-0">0</button>
+          <button onclick="clearAll()"         class="bClear">AC</button>
+          <button onclick="setOperator('+')"   class="bAddition">+</button>
+          <button onclick="BEqual('=')"        class="bEqual">=</button>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="/js/calculatur.js">
+    
+  </script>
+</html>
